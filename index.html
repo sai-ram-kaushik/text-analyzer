@@ -14,14 +14,14 @@
     <form name="text-analyzer" method="POST" action="./index.php" onsubmit="return validate()">
         <div class="container">
             <h1>TEXT ANALYZER</h1>
-            <textarea name="analyzer" class="line" placeholder="Enter the text" id="line"></textarea>
+            <textarea name="data" class="line" placeholder="Enter the text" id="box"></textarea>
             <input type="submit" value="submit" class="btn">
             <p>The length of the string is:</p>
             <p>The number of the words are:</p>
         </div>
     </form>
     <?php
-                $line = $_POST['analyzer'];
+                $line = $_POST['data'];
                 echo "The number of letters are:<br>";
                 echo strlen ($line);
             ?>
