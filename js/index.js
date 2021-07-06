@@ -1,5 +1,5 @@
 function validate(){
-    var a = document.getElementById('txt').value;
+    var a = document.getElementById('line').value;
     if (a == ""){
         alert("You have to fill the box");
         return false;

@@ -14,13 +14,20 @@
     <form name="text-analyzer" method="POST" action="./index.php" onsubmit="return validate()">
         <div class="container">
             <h1>TEXT ANALYZER</h1>
-            <textarea name="analyzer" class="line" placeholder="Enter the text" id="line"></textarea>
+            <textarea name="box" class="line" placeholder="Enter the text" id="line"></textarea>
             <input type="submit" value="submit" class="btn">
-            <?php
-                $line = $_POST['analyzer'];
-                echo "The number of letters are:<br>";
+            <p>The length of the string is:<br>
+                <?php
+                $line = $_POST['box'];
                 echo strlen ($line);
             ?>
+            </p>
+            <p1>The number of the words are:<br>
+                <?php
+                    $word = $_POST['box'];
+                    echo str_word_count ($word);
+                ?>
+            </p1>
         </div>
     </form>
     
