@@ -15,7 +15,7 @@
         <div class="container">
             <h1>TEXT ANALYZER</h1>
             <textarea name="data" class="line" placeholder="Enter the text" id="box"></textarea>
-            <input type="submit" value="submit" class="btn">
+            <button class="btn">SUBMIT</button>
             <p>The length of the string is:<br>
                 <?php
                 error_reporting(0);

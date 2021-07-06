@@ -41,17 +41,28 @@ body{
     outline: none;
 }
 .btn{
-    transform: translateY(-240px);
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background: #171717;
+    color: white;
+    border: none;
+    transition: all .4s;
     margin: 0px 85%;
-    font-size: 35px;
-
+    transform: translateY(-250px);
+}
+.btn:hover{
+    border-radius: 5px;
+    /* transform: translateY(-10px); */
+    box-shadow: 0 7px 0 -2px #f85959, 0 15px 0 -4px #39a2db, 0 16px 10px 3px #39a2db;
 }
 .container p{
-    transform: translateY(-210px);
+    transform: translateY(-150px);
     margin: 0px 10%;
     font-size: 35px;
 }
 .container p1{
-    transform: translateY(-210px);
+    transform: translateY(-150px);
     font-size: 35px;
 }
