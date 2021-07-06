@@ -20,14 +20,14 @@
                 <?php
                 error_reporting(0);
                 $data = $_POST['data'];
-                echo strlen ($line);
+                echo strlen ($data);
             ?>
             </p>
             <p1>The number of the words are:<br>
                 <?php
                     error_reporting(0);
                     $data = $_POST['data'];
-                    echo str_word_count ($word);
+                    echo str_word_count ($data);
                 ?>
             </p1>
         </div>
