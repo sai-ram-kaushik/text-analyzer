@@ -30,6 +30,32 @@
                     echo str_word_count ($data);
                 ?>
             </p1>
+            <p2>The number of vowels in the sentence:<br>
+            <?php
+                    error_reporting(0);
+                    $data = $_POST['data'];
+                    function vcount($x){
+                        $nw=0;
+                        for ($i=0;$i<strlen($x);$i++){
+                            switch(substr(strtolower($x),$i,1)){
+                            case 'a':
+                            case 'e':
+                            case 'i':
+                            case 'o':
+                            case 'u':  
+                                case 'A':
+                                    case 'E':
+                                    case 'I':
+                                    case 'O':
+                                    case 'U':   
+                                $nw++;
+
+                        }
+                    }
+                    echo  $nw;
+                }
+                vcount($data);
+            ?>
         </div>
     </form>
     

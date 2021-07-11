@@ -21,7 +21,7 @@ body{
 .container h1{
     font-size: 60px;
     text-align: center;
-    transform: translateY(-30px);
+    transform: translateY(-20px);
     margin: 0px 35%;
     display: flex;
     background: linear-gradient(90deg, #00dbde,#fc00ff);
@@ -32,7 +32,7 @@ body{
     text-align: center;
     padding: 50px 0px;
     font-size: 30px;
-    transform: translateY(-80px);
+    transform: translateY(-50px);
     margin: 0px 20%;
     display:flex;
     flex-wrap: wrap;
@@ -59,11 +59,16 @@ body{
     box-shadow: 0 7px 0 -2px #f85959, 0 15px 0 -4px #39a2db, 0 16px 10px 3px #39a2db;
 }
 .container p{
-    transform: translateY(-150px);
+    transform: translateY(-120px);
     margin: 0px 10%;
     font-size: 35px;
 }
 .container p1{
-    transform: translateY(-150px);
+    transform: translateY(-120px);
     font-size: 35px;
+}
+.container p2{
+    transform: translateY(-70px);
+    font-size: 35px;
+    margin: 0px 30%;
 }
